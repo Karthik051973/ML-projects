@@ -1,2 +1,2 @@
 # ML-projects
-Here are some project I did
+Here are some projects I did
