@@ -29,6 +29,10 @@ model.fit(X_train, Y_train)
 # Title
 st.title("🚗 Car Selling Price Prediction")
 
+# Feedback Button at top
+feedback_url = "https://docs.google.com/forms/d/e/1FAIpQLScAF-TnTBnDlmeOUVxjeyZaadMCuh9lWHSzqMgInEPWq_YZOw/viewform"
+st.markdown(f"<a href='{feedback_url}' target='_blank'><button style='background-color: #4CAF50; color: white; padding: 8px 16px; font-size: 16px; border: none; border-radius: 5px;'>📝 Give Feedback</button></a>", unsafe_allow_html=True)
+
 # Frontend form
 st.header("Enter Car Details")
 col1, col2, col3 = st.columns(3)
